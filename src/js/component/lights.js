@@ -6,8 +6,7 @@ export function Lights() {
 		height: "150px",
 		width: "150px",
 		backgroundColor: "red",
-		borderRadius: "100px",
-		margin: "0pc"
+		borderRadius: "100px"
 	};
 
 	const yellowStyles = {
@@ -28,12 +27,14 @@ export function Lights() {
 		height: "150px",
 		width: "150px",
 		backgroundColor: "black",
-		borderRadius: "100px"
+		borderRadius: "100px",
+		border: "solid 1px white"
 	};
 
 	const traffic = {
 		border: "2px black solid",
-		width: "200px"
+		width: "200px",
+		backgroundColor: "black"
 	};
 
 	const [red, setred] = useState("on");
